@@ -1,0 +1,10 @@
+[sp45@sciprog ~]$ cd Practical02
+[sp45@sciprog Practical02]$ gcc -o Sum Sum.c
+[sp45@sciprog Practical02]$ ./Sum
+ Sum1=0.000000
+ Sum2=0.000000
+ Difference between the two is 986710754197504.000000
+
+[sp45@sciprog Practical02]$ gcc -o Conversion Conversion.c
+[sp45@sciprog Practical02]$ ./Conversion
+inum=33554431,  fnum=33554432.000000, inum in binary=1111111111111111111111111

@@ -1,0 +1,10 @@
+These are code for practical03. To compile:
+
+cd practical03
+gcc -std=c99 -o practical03 practical03.c -lm
+./practical03
+
+output:
+Approximate the integral using the trapezoidal rule: 0.695045
+Actual Result log(2) : 0.693147
+Different Value: 0.001898

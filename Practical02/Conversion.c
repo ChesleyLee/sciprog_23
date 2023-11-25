@@ -27,12 +27,17 @@ int main(void) {
        
 
 /* Complete the expression */
-/* numdigits = ceil( ... );
+   numdigits = ceil( logf(inum)/logf(2));
    printf("The number of digits is %d\n",numdigits);
-*/
+
+   float temp=6.5;
+   printf("Temp is %d\n",temp);
 
 
    printf("inum=%d,  fnum=%f, inum in binary=%s\n",
       inum,fnum,binnum);
 
+   return 0;
 }
+
+

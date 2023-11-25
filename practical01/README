@@ -1,0 +1,23 @@
+These are code for practical01. To compile,
+ ssh sp45@sciprog.ichec.ie
+ cd practical01
+ 
+ gcc -o Conversion Conversion.c -lm
+ ./Conversion
+ 
+ #The number of digits is 25
+ #inum=33554431,  fnum=33554432.000000, inum in binary=1111111111111111111111111
+
+ gcc -o printing printing.c -lm
+ ./printing
+ #Account: 1 Subtotal: 1234.56 Total: 7890.12
+ 
+ gcc -o scanning scanning.c -lm
+ ./scanning
+ 
+Please input two positive integers
+94 45
+ You entered 94 and 45
+ num1 is even and num2 is odd
+
+ 

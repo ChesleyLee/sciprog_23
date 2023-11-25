@@ -1,0 +1,17 @@
+These are code for practical03. To compile,
+
+ssh sp45@sciprog.ichec.ie
+cd practical03
+
+gcc -o print print.c
+./print
+output£º
+Two ints 10 200 and two floats 1.11 2.2222
+
+gcc -o excercise3 excercise3.c -lm
+./excercise3
+output:
+Your approximation of the integral from x+0 to x=pi/3 of the function tan(x)wit
+0.07557
+The exact solution is :
+0.69315

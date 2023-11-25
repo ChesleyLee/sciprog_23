@@ -1,10 +1,17 @@
-These are code for practical03. To compile:
+These are code for practical03. To compile,
 
+ssh sp45@sciprog.ichec.ie
 cd practical03
-gcc -std=c99 -o practical03 practical03.c -lm
-./practical03
 
+gcc -o print print.c
+./print
+output£º
+Two ints 10 200 and two floats 1.11 2.2222
+
+gcc -o excercise3 excercise3.c -lm
+./excercise3
 output:
-Approximate the integral using the trapezoidal rule: 0.695045
-Actual Result log(2) : 0.693147
-Different Value: 0.001898
+Your approximation of the integral from x+0 to x=pi/3 of the function tan(x)wit
+0.07557
+The exact solution is :
+0.69315

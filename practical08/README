@@ -1,0 +1,10 @@
+These are code for practical08. To compile,
+ ssh sp45@sciprog.ichec.ie
+ cd practical08
+ 
+gcc -o gcd gcd.c
+./gcd
+
+output:
+ Using iteration,we get the answer: 5
+ Using recursion,we get the answer: 5
